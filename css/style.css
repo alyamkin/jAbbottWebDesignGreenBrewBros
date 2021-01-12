@@ -1,0 +1,54 @@
+/* font-family: 'Prompt', sans-serif;
+font-family: "Montserrat", sans-serif; 
+font-family: 'Barlow Condensed', sans-serif; */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Fonts example */
+
+.montBold {
+  font-weight: 700;
+}
+.promptReg {
+  font-family: "Prompt", sans-serif;
+}
+.promptBold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+}
+
+.barlowReg {
+  font-family: "Barlow Condensed", sans-serif;
+}
+.barlowBold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+}
+
+/* Colors example */
+/* #279135 - primary green
+#965316 - primary brown
+#FCE8A6 - header background */
+
+.bg-primary-green {
+  background-color: #279135;
+}
+
+.bg-primary-brown {
+  background-color: #965316;
+}
+
+.bg-primary-lightBrown {
+  background-color: #fce8a6;
+}
+
+.text-primary-green {
+  color: #279135;
+}
+.text-primary-brown {
+  color: #965316;
+}
+.text-primary-lightBrown {
+  color: #fce8a6;
+}
