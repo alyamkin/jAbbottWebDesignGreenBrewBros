@@ -17,32 +17,81 @@
             <div class="col">
                 <img src="images/logo_transparent.png" alt="Logo" width="130" height="90">
             </div>
-            <div class="dropdown col order-last"> <!-- Using dropdown for the menu button when mobile size -->
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="#">Home</a></li>
-                    <li><a class="dropdown-item" href="#">Beers</a></li>
-                    <li><a class="dropdown-item" href="#">Events</a></li>
-                    <li><a class="dropdown-item" href="#">Our Story</a></li>
-                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                </ul>
-            </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Beers</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
         </div>
         <!-- Body --> <!-- Using Collapse for each item to expand with their own info when clicked -->
         <div>
             <div>
-                Beer 01
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample01" aria-expanded="false" aria-controls="collapseExample01">
+                      Beer 01
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample01">
+                    <div class="card card-body">
+                      Beer 01 Information
+                    </div>
+                </div> 
+            <div>
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample02" aria-expanded="false" aria-controls="collapseExample02">
+                      Beer 02
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample02">
+                    <div class="card card-body">
+                      Beer 02 Information
+                    </div>
+                </div> 
             </div>
             <div>
-                Beer 02
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample03" aria-expanded="false" aria-controls="collapseExample03">
+                      Beer 03
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample03">
+                    <div class="card card-body">
+                      Beer 03 Information
+                    </div>
+                </div> 
             </div>
             <div>
-                Beer 03
-            </div>
-            <div>
-                Beer 04
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample04" aria-expanded="false" aria-controls="collapseExample04">
+                      Beer 04
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample04">
+                    <div class="card card-body">
+                      Beer 04 Information
+                    </div>
+                </div> 
             </div>
         </div>
         <!-- Footer --> <!--- Sticky footer -->
