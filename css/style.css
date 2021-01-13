@@ -28,6 +28,7 @@ body {
 
 /* Colors example */
 /* #279135 - primary green
+#195D22 - primary green dark
 #965316 - primary brown
 #FCE8A6 - header background */
 
@@ -51,4 +52,37 @@ body {
 }
 .text-primary-lightBrown {
   color: #fce8a6;
+}
+
+/* Navigation bar */
+.navbar-light .navbar-nav .nav-link {
+  color: #965316;
+  font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #279135;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(39, 145, 53, 0.55);
+  border-color: rgba(39, 145, 53, 0.1);
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(150, 83, 22, 0.55)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Main buttons */
+.btn-primary-custom {
+  color: #fff;
+  background-color: #279135;
+  border-color: #279135;
+}
+.btn-primary-custom:hover {
+  color: #fff;
+  background-color: #195d22;
+  border-color: #195d22;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(39, 145, 53, 0.25);
 }
