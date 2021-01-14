@@ -301,12 +301,13 @@ a:hover {
        
 
     }
-    .whiteLogo a{
-        width: 110px;
+    .whiteLogo{
+      display: block;
     }
-    body > div > div.landing > div > a > img{
+  
+    body > div > div.landing > div > div.whiteLogo > a > img{
         width: 110px;
-         margin-left: 315px;
+         margin-left: 260px;
     }
 
     a.nav-link {
