@@ -101,6 +101,19 @@ body {
   background-color: #279135;
 }
 
+/* Slider */
+.slick-slide {
+  margin: 0px;
+}
+.slick-slide img {
+  width: 100%;
+  border: 2px solid #fff;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #279135;
+}
+
 /* Footer */
 footer a {
   color: white;
