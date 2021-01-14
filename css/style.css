@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 /* font-family: 'Prompt', sans-serif;
-font-family: "Montserrat", sans-serif; 
+font-family: "Montserrat", sans-serif;
 font-family: 'Barlow Condensed', sans-serif; */
 body {
   font-family: "Montserrat", sans-serif;
@@ -57,7 +57,7 @@ body {
 
 =======
 /* font-family: 'Prompt', sans-serif;
-font-family: "Montserrat", sans-serif; 
+font-family: "Montserrat", sans-serif;
 font-family: 'Barlow Condensed', sans-serif; */
 body {
   font-family: "Montserrat", sans-serif;
@@ -148,6 +148,21 @@ body {
 
 /* ------------------------------------------------OUR STORY CSS-------------------------------------------------- */
 
+.text-justify {
+  text-align: justify;
+}
+
+.location-bg {
+  background-image: url(../img/GBB-red-house.jpg);
+  background-color: #609267;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+  height: 60vh;
+  color: white;
+}
+
 .textOnImg {
   color: white;
 }
@@ -158,8 +173,10 @@ body {
   padding: 15px 50px;
 }
 
-.text-justify {
-  text-align: justify;
+#btn-location:hover {
+  color: white;
+  font-size: 1.2rem;
+  background-color: #003f08;
 }
 
 .mascot {
@@ -173,6 +190,7 @@ body {
       margin-bottom: 25px;
   }
 }
+
 
 /* .overlayed-img-1 {
   position: relative;
@@ -195,7 +213,3 @@ body {
   z-index: 3;
 } */
 
-.location-bg {
-  background-image: url("img/aluminum_barrel.jpg");
-  background-size: cover;
-}
