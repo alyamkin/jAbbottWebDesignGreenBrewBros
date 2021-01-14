@@ -314,21 +314,24 @@
     <section id="events-subscription" class="py-5 bg-light">
       <div class="container">
         <div class="row">
-          <p class="lead text-center">
+          <p class="lead text-center mb-5">
             Register and be on touch about new events ...
           </p>
           <!-- subscription form -->
-          <form>
+          <form
+            action="http://jac.stephmoreau.ca/submitForm/""
+            method="POST"
+          >
             <div class="row">
-              <div class="col-sm-5 offset-sm-3 mb-2">
+              <div class="col-8 col-md-6 offset-md-2 col-xl-5 offset-xl-3">
                 <input
-                  type="password"
+                  type="email"
                   class="form-control"
                   id="inputPassword2"
                   placeholder="test@gmail.com"
                 />
               </div>
-              <div class="col-sm-4 offset-4 offset-sm-0">
+              <div class="col-4">
                 <button type="submit" class="btn btn-primary-custom mb-2">
                   Subscribe
                 </button>
@@ -339,9 +342,47 @@
       </div>
     </section>
     <!-- Subscription section ends -->
-    <div class="container">
-      <div class="row"></div>
-    </div>
+
+    <!-- Footer starts -->
+    <!-- Footer ends -->
+    <footer class="bg-green-custom pt-5 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <div class="row text-center mb-5">
+              <div class="col-6 col-sm-4">
+                <a href="#">option 1</a>
+              </div>
+              <div class="col-6 col-sm-4">
+                <a href="#">option 2</a>
+              </div>
+              <div class="col-6 col-sm-4">
+                <a href="#">option 3</a>
+              </div>
+              <div class="col-6 col-sm-4">
+                <a href="#">option 4</a>
+              </div>
+              <div class="col-6 col-sm-4">
+                <a href="#">option 5</a>
+              </div>
+              <div class="col-6 col-sm-4">
+                <a href="#">option 6</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-4 d-flex justify-content-around align-items-center"
+          >
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-foursquare"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-vimeo-v"></i></a>
+          </div>
+          <p class="small text-center mt-3">Copyright © 2021. GreenBrewBros</p>
+        </div>
+      </div>
+    </footer>
     <!-- Popper and Bootstrap JS -->
 
     <script

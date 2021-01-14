@@ -86,3 +86,29 @@ body {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(39, 145, 53, 0.25);
 }
+
+/* Custom inputs */
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #279135;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(39, 145, 53, 0.25);
+}
+
+/* Custom background */
+.bg-green-custom {
+  background-color: #279135;
+}
+
+/* Footer */
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+}
+footer i {
+  font-size: 1.5rem;
+}
