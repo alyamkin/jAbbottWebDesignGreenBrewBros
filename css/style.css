@@ -174,7 +174,7 @@ body {
   }
 }
 
-.overlayed-img-1 {
+/* .overlayed-img-1 {
   position: relative;
   top: -10px;
   left: 10px;
@@ -193,4 +193,9 @@ body {
   top: -10px;
   left: 390px;
   z-index: 3;
+} */
+
+.location-bg {
+  background-image: url("img/aluminum_barrel.jpg");
+  background-size: cover;
 }
