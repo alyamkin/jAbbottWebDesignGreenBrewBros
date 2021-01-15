@@ -129,6 +129,28 @@ body {
   transition: background-color 200ms linear;
 }
 
+/* Margin body */
+
+.margeTop {
+  margin-top: 6rem;
+  margin-bottom: 15rem;
+}
+
+.margeBot {
+  margin-bottom: 3rem;
+}
+
+/* Carousel CSS */
+
+.carousel {
+  width: 40rem;
+  height: 30rem;
+}
+.carousel-inner > .carousel-item > img {
+  width: 50rem;
+  height: 30rem;
+}
+
 /* Main buttons */
 .btn-primary-custom {
   color: #fff;
@@ -172,6 +194,12 @@ body {
   color: #279135;
 }
 
+/* disclaimer text */
+
+.disclaimer {
+  font-size: x-small;
+}
+
 /* Footer */
 footer a {
   color: white;
@@ -182,4 +210,10 @@ footer a:hover {
 }
 footer i {
   font-size: 1.5rem;
+}
+
+/* footer logo */
+
+.footLogo {
+  justify-content: center;
 }
